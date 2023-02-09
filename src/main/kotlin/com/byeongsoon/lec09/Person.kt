@@ -19,7 +19,7 @@ class Person (
     return this.name.uppercase()
   }
 
-  val uppercaseName: String
+  val uppercaseName2: String
     get() = this.name.uppercase()
 
   // 생성자가 호출되는 시점에 호출되는 init으로 검증 등을 수행
